@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-blog
 title: Privacy Policy | Sin Sopheak
 permalink: privacy
 ---

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand navbar-sticky">
-    <a class="navbar-brand" href="/{% if page.title contains 'Blog' %}blog{% endif %}">{% if page.title contains 'Blog' %}Blog<span class="small-nav-title"> by SIN SOPHEAK</span>{% else %}SIN SOPHEAK{% endif %}</a>
+    <a class="navbar-brand" href="/">Blog<span class="small-nav-title"> by SIN SOPHEAK</span></a>
     <ul class="navbar-nav ml-auto">
         {% for item in site.data.navigation-blog limit:5 %}
         <li class="nav-item">
